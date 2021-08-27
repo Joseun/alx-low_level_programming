@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
+/* print numbers from 0 to 9 */
 int main(void)
 {
 	char ch = '0';

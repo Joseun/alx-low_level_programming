@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
+/* prints alphabets in lowercase in reverse */
 int main(void)
 {
 	char ch = 'z';
