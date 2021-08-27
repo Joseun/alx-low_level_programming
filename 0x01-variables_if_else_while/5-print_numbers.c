@@ -5,9 +5,9 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-	char ch = 'a';
+	char ch = '0';
 
-	while (ch <= 'z')
+	while (ch <= '9')
 	{
 		putchar(ch);
 		ch++;
