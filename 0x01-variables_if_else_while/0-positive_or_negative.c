@@ -3,6 +3,10 @@
 #include <stdio.h>
 
 /* returns statements if number is positive, negative or zero */
+/** main - entry point
+ *
+ * return - 0 sucess
+ */
 int main(void)
 {
 	int n;

@@ -3,6 +3,11 @@
 #include <stdio.h>
 
 /* prints alphabets in lowercase in reverse */
+/**
+ * main - entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	char ch = 'z';
