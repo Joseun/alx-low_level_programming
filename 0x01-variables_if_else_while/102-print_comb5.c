@@ -3,24 +3,28 @@
 /**
  * main - Entry point
  *
- * Description - print combination of two digits with numbers from 0 to 9
+ * Description - print combination of two digits with numbers from 0 to 99
  *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int ch;
-	int xy;
+	int a;
+	int b;
 
-	for (ch = 0; ch <= 9; ch++)
+	for (a = 0; a <= 98; a++)
 	{
-		for (xy = 0; xy <= 9; xy++)
+		for (b = 0; b <= 99; b++)
 		{
-		putchar(ch + '0');
-		putchar(xy + '0');
+		putchar((a / 10) + '0');
+		putchar((a % 10) + '0');
+		putchar(' ');
+		putchar((b / 10) + '0');
+		putchar((b % 10) + '0');
 
-		if (!(ch == 9 && xy == 9))
+		if (a == 98 && b == 99)
+			continue;
 		{
 		putchar(',');
 		putchar(' ');
