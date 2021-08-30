@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
@@ -16,7 +14,7 @@ int main(void)
 
 	for (ch = 0; ch <= 9; ch++)
 	{
-		putchar(ch +'0');
+		putchar(ch + '0');
 		if (ch < 9)
 		{
 		putchar(',');
