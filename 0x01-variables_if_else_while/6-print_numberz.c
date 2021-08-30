@@ -1,21 +1,17 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
-/* prints numbers in int from 0 to 9 */
 /**
  * main - Entry point
  *
+ * Description - print numbers from int 0 to 9
+ *
  * Return: Always 0 (Success)
  */
-int main(void) /* function main from header library */
+
+int main(void)
 {
-/* ch is equals to zero which is a int variable */
 	int ch = '0';
-/*
- * while loop to number 9 and prints from less
- * than 9
- */
+
 	while (ch <= '9')
 	{
 		putchar(ch);

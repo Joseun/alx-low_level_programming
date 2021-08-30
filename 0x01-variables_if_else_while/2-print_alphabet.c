@@ -2,11 +2,14 @@
 #include <time.h>
 #include <stdio.h>
 
-/* print lowercase alphabet from a to z */
-/** main - entry point
+/**
+ * main - entry point
  *
- * return - o sucess
+ * Description - /* print lowercase alphabet from a to z
+ *
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	char ch = 'a';

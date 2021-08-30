@@ -2,13 +2,21 @@
 #include <time.h>
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ * main - Entry point
+ *
+ * Description - print all lowercase alphabets except q and e
+ *
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
 	char ch = 'a';
 
-	while (ch <= 'z' || != 'e' || != 'q')
+	while (ch <= 'z')
 	{
+		if (ch != 'e' && ch != 'q')
 		putchar(ch);
 		ch++;
 	}
