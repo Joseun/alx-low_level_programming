@@ -1,11 +1,9 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
  * main - entry point
  *
- * Description - /* print lowercase alphabet from a to z
+ * Description - print lowercase alphabet from a to z
  *
  * Return: Always 0 (Success)
  */
