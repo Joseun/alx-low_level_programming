@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	char *str = "Holberton\n";
+	char *str = "_putchar\n";
 
 		while (*str != '\0')
 		_putchar(*str++);
