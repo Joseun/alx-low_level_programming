@@ -8,16 +8,15 @@
 
 int main(void)
 {
-	int x, y;
+	int x, y = 0;
 
 	for (x = 0; x < 1024; x++)
 	{
 		if ((x % 3) == 0 || (x % 5) == 0)
 		{
-			y = 0;
 			y += x;
-			printf("%d\n", y);
 		}
-		return (0);
+			printf("%d\n", y);
+			return (0);
 	}
 }
