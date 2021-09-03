@@ -8,30 +8,22 @@
 
 int main(void)
 {
-	int factor, prime_factors, largest;
-	long long int x;
+	long int factor;
+	long int x;
 
 	x = 612852475143;
 
-	for (factors = 1; factors <= x; factors++)
+	for (factor = 2; factor <= x; factor++)
 	{
-		if ((x % factor == 0)
+		if (x % factor == 0)
 		{
-			printf(" FizzBuzz");
-		}
-		else if (x % 3 == 0)
-		{
-			printf(" Fizz");
-		}
-		else if (x % 5 == 0)
-		{
-			printf(" Buzz");
-		}
-		else
-		{
-			printf(" %d", x);
+			if (x % factor == 0)
+			{
+				x /= factor;
+				factor--;
+			}
 		}
 	}
-	printf("\n");
+	printf("%ld\n", factor);
 	return (0);
 }
