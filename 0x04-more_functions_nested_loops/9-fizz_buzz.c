@@ -2,7 +2,7 @@
 
 /**
  * main - entry point
- *
+ * @void: no argument
  * Return: Always 0
  */
 
