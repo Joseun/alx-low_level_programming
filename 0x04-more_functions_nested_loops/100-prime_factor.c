@@ -8,13 +8,14 @@
 
 int main(void)
 {
-	int x;
+	int factor, prime_factors, largest;
+	long long int x;
 
-	x = 1;
+	x = 612852475143;
 
-	for (; x <= 100; x++)
+	for (factors = 1; factors <= x; factors++)
 	{
-		if ((x % 3 == 0) && (x % 5 == 0))
+		if ((x % factor == 0)
 		{
 			printf(" FizzBuzz");
 		}
