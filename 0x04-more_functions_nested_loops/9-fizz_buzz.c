@@ -11,8 +11,8 @@ int main(void)
 	int x;
 
 	x = 1;
-	printf("%d", x);
-	for (x = 0; x <= 100; x++)
+
+	for (; x <= 100; x++)
 	{
 		if ((x % 3 == 0) && (x % 5 == 0))
 		{
@@ -28,7 +28,7 @@ int main(void)
 		}
 		else
 		{
-			printf(" %d", n);
+			printf(" %d", x);
 		}
 	}
 	printf("\n");

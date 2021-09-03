@@ -8,13 +8,13 @@ void print_most_numbers(void);
 void print_number(int n);
 int _isupper(int c);
 int _isdigit(int c);
-int print_square(int size);
+void print_square(int size);
 int _abs(int);
-int print_triangle(int size);
+void print_triangle(int size);
 void print_diagonal(int n);
-void times_table(void);
+void more_numbers(void);
 int mul(int, int);
-void print_to_98(int n);
+void print_line(int n);
 void print_times_table(int n);
 
 #endif
