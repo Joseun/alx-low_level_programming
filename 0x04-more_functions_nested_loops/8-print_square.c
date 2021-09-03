@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_square - prints diagonal line n times
+ * print_square - prints square with #
  *
  * @size: size of square in integer to be printed
  *
@@ -18,9 +18,11 @@ void print_square(int size)
 		{
 		_putchar(35);
 		}
-		_putchar(92);
 		if (x != size - 1)
+		{
 			_putchar('\n');
+		}
+
 	}
 	_putchar('\n');
 }
