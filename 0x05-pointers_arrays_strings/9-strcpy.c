@@ -2,8 +2,9 @@
 
 /**
  * *_strcpy - copies string to the the buffer
+ *
  * @dest: pointer to buffer
- * @str: pointer to string
+ * @src: pointer to string
  *
  * Return: the pointer to @dest
  */
