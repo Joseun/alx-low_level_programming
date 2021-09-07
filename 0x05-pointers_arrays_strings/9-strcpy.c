@@ -13,7 +13,7 @@ char *_strcpy(char *dest, char *src)
 {
 	int x = 0, y;
 
-	while (src[x] <= '\0')
+	while (src[x] < '\0')
 	{
 		x++;
 	}
