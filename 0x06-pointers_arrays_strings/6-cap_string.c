@@ -8,7 +8,7 @@
  * Return: the resulting string
  */
 
-char *cap_string(char *)
+char *cap_string(char *s)
 {
 	int x, y;
 
