@@ -11,7 +11,6 @@
 char *leet(char *s)
 {
 	int x, y;
-
 	char *a = "aAeEoOtTiL";
 	char *b = "4433007711";
 
@@ -21,7 +20,7 @@ char *leet(char *s)
 		{
 			if (s[x] == a[y])
 			{
-				(s[x] = b[y]);
+				s[x] = b[y];
 			}
 		}
 	}
