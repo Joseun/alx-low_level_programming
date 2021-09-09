@@ -8,15 +8,15 @@
  * Return: the resulting string
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *s)
 {
 	int x;
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (x = 0; s[x] != '\0'; x++)
 	{
-		if (s[i] >= 'a' && s[i] <= 'z')
+		if (s[x] >= 'a' && s[x] <= 'z')
 		{
-			s[i] = s[i] - 32;
+			s[x] = s[x] - 32;
 		}
 	}
 	return (s);
