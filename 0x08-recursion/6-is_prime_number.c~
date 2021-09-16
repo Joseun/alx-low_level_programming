@@ -23,11 +23,11 @@ int find_sqrt(int n, int x)
 }
 
 /**
- * _sqrt_recursion - returns natural square root of a number
+ * _sqrt_recursion: returns natural square root of a number
  *
  * @n: pointer to number
  *
- * Return: -1 when n is not a natural square or square root x
+ * Return - -1 when n is not a natural square or square root x
  */
 
 int _sqrt_recursion(int n)
