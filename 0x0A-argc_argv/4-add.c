@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 	{
 		for (y = 0; argv[x][y] != 0; y++)
 		{
-			if (atoi(argv[x]) < 48 && atoi(argv[x]) > 57)
+			if (argv[x][y] < 48 && argv[x][y] > 57)
 			{
 				printf("Error\n");
 				return (1);
@@ -35,7 +35,6 @@ int main(int argc, char *argv[])
 			sum += num;
 		}
 	}
-
 	printf("%d\n", sum);
 	return (0);
 }
