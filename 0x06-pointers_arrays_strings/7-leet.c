@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * leet - encodes every word of a string
+ * leet - encodes characters aeotlAEOTL to 1337
  *
  * @s: pointer to the string to change
  *
