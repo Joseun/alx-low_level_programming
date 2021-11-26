@@ -1,0 +1,12 @@
+#!/bin/bash
+
+STRINGS="$(strings crackme5)"
+for STRING in $STRINGS; do
+    cp crackme5 b.out
+    RESULT="$(./b.out $STRING)"
+    if [[ $RESULT == *Congrats!* ]]
+    then
+	printf "%s" $STRING
+	break;
+    fi
+done
