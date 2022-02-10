@@ -2,3 +2,6 @@
 
 all: school.c main.c
     gcc school.c main.c -o school
+
+%.o: %.c
+    gcc -c -o $@ $<
