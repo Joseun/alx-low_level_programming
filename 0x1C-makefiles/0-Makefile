@@ -1,7 +1,2 @@
-# Rules for all to build school
-
 all: school.c main.c
     gcc school.c main.c -o school
-
-%.o: %.c
-    gcc -c -o $@ $<
